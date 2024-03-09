@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvest Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Harvest Calculator</h2>
+        <label for="land">Enter Land Measurement (in acres):</label>
+        <input type="number" id="land" placeholder="e.g., 10">
+        <label for="crop">         Select Crop:</label>
+        <select id="crop">
+            <option value="wheat">Wheat</option>
+            <option value="jute">jute</option>
+            <option value="sugarcane">sugarcane</option>
+        </select>
+        <button onclick="calculate()">Calculate</button>
+        <div id="output"></div>
+        <div class="note">
+            <h3>Note: The output here is average not exact. The harvest rate depends on soil quality,climate, etc.</h3>
+        </div>
+        <a href="home.html">
+            <button>Home</button>
+        </a>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

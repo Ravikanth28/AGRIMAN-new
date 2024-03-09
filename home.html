@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AGRIMAN</title>
-
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="home.css">
 </head>
 <body>
+    
     <div class="hero">
 
     <video autoplay loop muted plays-inline class="back-video">
@@ -16,10 +18,19 @@
     <nav class="navbar" id="navbar">
         <h1 class="name">AGRIMAN</h1>
         <img src="" class="logo">
+        <!-- <div class="search">
+            <form action="#">
+                <input type="text" placeholder="search the crops" name="search">
+                <button>
+                    <i class="fa fa-search" style="font-size: 18px;"></i>
+                </button>
+            </form>
+        </div> -->
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Help</a></li>
+            <li><a href="soil.html">Soil</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="help.html">Help</a></li>
             <li><a href="#">Login</a></li>
         </ul>
     </nav>
@@ -29,17 +40,61 @@
     </div>
     
    <div class="container"></div>
+   
   
-   <div class="container-wheat"></div>
+   <div class="container-wheat">
+    
+    <p class="wheat-content"> Wheat, any of several species of cereal grasses of the genus Triticum (family Poaceae) and their edible grains. Wheat is one of the oldest and most important of the cereal crops. Of the thousands of varieties known, the most important are common wheat (Triticum aestivum), used to make bread; durum wheat (T. durum), used in making pasta (alimentary pastes) such as spaghetti and macaroni; and club wheat (T. compactum), a softer type, used for cake, crackers, cookies, pastries, and flours. </p>
+    <br>
+    <a href="p1.html" class="wheatbutton">
+        <button>More</button>
+    </a>
+
+   </div>
    
    <div class="container1"></div>
    
-   <div class="container-jute"></div>
+   <div class="container-jute">
+    <p class="jute-content">Jute has been grown in the Bengal area of India (and of present-day Bangladesh) from ancient times. The export of raw jute from the Indian subcontinent to the Western Hemisphere began in the 1790s. The fibre was used primarily for cordage manufacture until 1822, when commercial yarn manufacture began at Dundee, Scot., which soon became a centre for the industry. India’s own jute-processing industry began in 1855, Calcutta becoming the major centre. </p>
+    <br>
+    <a href="jute.html" class="wheatbutton">
+        <button>More</button>
+    </a>
+   </div>
 
    <div class="container2"></div>
 
-   <div class="container-sugarcane"></div>
+   <div class="container-sugarcane">
+    <p class="sugarcane-content">Sugarcane, (Saccharum officinarum), perennial grass of the family Poaceae, primarily cultivated for its juice from which sugar is processed. Most of the world’s sugarcane is grown in subtropical and tropical areas. The plant is also grown for biofuel production, especially in Brazil, as the canes can be used directly to produce ethyl alcohol (ethanol). The by-products from cane sugar processing, namely the straw and bagasse (cane fibres), can be used to produce cellulosic ethanol, a second-generation biofuel.  </p>
+    <br>
+    <a href="Sugarcane.html" class="wheatbutton">
+        <button>More</button>
+    </a>
+   </div>
 
-    
+   <div class="translator">
+    <div id="google_translate_element"></div>
+ 
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+ 
+    <script type="text/javascript"
+            src=
+"https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+    </script>
+   </div>
+
+   <footer>
+    <p>&copy; 2024 AGRIMAN. All rights reserved.</p>
+</footer>
+
+<script src="home.js"></script>
 </body>
 </html>

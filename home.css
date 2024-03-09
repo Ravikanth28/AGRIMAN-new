@@ -92,14 +92,10 @@ nav ul li a{
 body{
     /* background-color: #C1F2B0; */
     background-color: white;
-    background-image: url(/images/florin-hatmanu-i0t9lFjmNGs-unsplash.jpg);
+    /* background-image: url(/images/background.jpg);
     background-size: cover;
-    background-position: center;
-    
-    
-    
-    
-    
+    background-position: center; 
+    background-repeat: repeat-y; */
 }
 
 .container{
@@ -123,6 +119,9 @@ body{
     box-shadow: 5px 5px 50px -5px rgba(0,0,0,0.8);
     transform: translate(189%, -10%);
     border-radius: 10px;
+    background-color: white;
+    
+    overflow-x: scroll;
 }
 .container1{
     width: 250px;
@@ -145,6 +144,9 @@ body{
     box-shadow: 5px 5px 50px -5px rgba(0,0,0,0.8);
     transform: translate(123%, -38%);
     border-radius: 10px;
+    background-color: white;
+
+    overflow-x: scroll;
 }
 
 .container2{
@@ -168,6 +170,8 @@ body{
     box-shadow: 5px 5px 50px -5px rgba(0,0,0,0.8);
     transform: translate(189%, -50%);
     border-radius: 10px;
+    background-color: white;
+    overflow-x: scroll;
 }
 .video-container{
     position: relative;
@@ -193,3 +197,75 @@ a.active,a:hover{
  .navbar{
     color: #000000;
  }
+
+ footer {
+    background-color: #3e3d3d;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    
+        
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    
+  }
+  .google_translate_element{
+    justify-items: right;
+  }
+
+  .wheat-content{
+    font-size: large;
+    font-style: italic;
+  }
+  .jute-content{
+    font-size: large;
+    font-style: italic;
+  }
+
+  .translator{
+    position:static;
+  }
+
+  .sugarcane-content{
+    font-size: large;
+    font-style: italic;
+  }
+
+
+button{
+    border-radius: 50px;
+    border: 0px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    
+
+}
+button:hover{
+    border-radius: 50px;
+    border: 0px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-4px);
+    background-color: #2afc3f;
+    color: #000;
+    transition: transform 0.3s ease 0s;
+}
+
+.wheatbutton{
+    
+        position: relative;
+        left: 300px;
+        top: 7px;
+        transition: transform 0.3s ease 0s;
+    
+}
+  /* .navbar.search{
+    text-align: center;
+    background-color: transparent;
+    
+  } */

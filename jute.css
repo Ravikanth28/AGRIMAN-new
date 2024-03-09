@@ -1,0 +1,47 @@
+body{
+    color: #ffff;
+    background-image: url("/images/5.jpg");
+    background-size: 100%;
+    text-size-adjust: 100px;
+    font-size: x-large;
+    background-attachment: fixed;
+}
+h2{
+    position: relative;
+    top: 30px;
+    color: rgb(234, 208, 10);
+    font-style: bold;
+    text-decoration: underline;
+    text-decoration-color: greenyellow ;
+}
+p{
+    position: relative;
+    top: 30px;
+    
+    font-style: bold;
+    
+}
+button{
+    width: 100;
+    border-radius: 50px;
+    border: 0px;
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease 0s;
+    object-position: center;
+}
+button:hover{
+    border-radius: 50px;
+    border: 0px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-4px);
+    object-position: center;
+}
+h1{
+    color: rgb(255, 230, 0);
+}
